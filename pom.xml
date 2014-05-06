@@ -17,9 +17,9 @@
 		</scm -->
 
 	<scm>
-		<developerConnection>scm:git:https://github.com/wangxiaoming2/test.git</developerConnection>
-		<connection>scm:git:https://github.com/wangxiaoming2/test.git</connection>
-		<url>https://github.com/wangxiaoming2/test.git</url>
+		<developerConnection>scm:git:https://github.com/JudyTang/test-1.git</developerConnection>
+		<connection>scm:git:https://github.com/JudyTang/test-1.git</connection>
+		<url>https://github.com/JudyTang/test-1.git</url>
 		<tag>esb-app-example-1.0.5</tag>
 	</scm>
 
