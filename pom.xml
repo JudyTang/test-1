@@ -20,7 +20,7 @@
 		<developerConnection>scm:git:https://github.com/JudyTang/test-1.git</developerConnection>
 		<connection>scm:git:https://github.com/JudyTang/test-1.git</connection>
 		<url>https://github.com/JudyTang/test-1.git</url>
-		<tag>esb-app-example-1.0.7</tag>
+		<tag>esb-app-example-1.0.8</tag>
 	</scm>
 
 	<build>
@@ -53,7 +53,16 @@
 							<daemons>
 								<daemon>
 									<id>example</id>
+									<wrapperMainClass>org.tanukisoftware.wrapper.WrapperStartStopApp</wrapperMainClass>
 									<mainClass>com.pointcarbon.esb.app.example.Main</mainClass>
+									<commandLineArguments>
+										<commandLineArgument>1</commandLineArgument>
+										<commandLineArgument>start</commandLineArgument>
+										<commandLineArgument>com.pointcarbon.esb.app.example.Main</commandLineArgument>
+										<commandLineArgument>TRUE</commandLineArgument>
+										<commandLineArgument>1</commandLineArgument>
+										<commandLineArgument>stop</commandLineArgument>
+									</commandLineArguments>
 									<platforms>
 										<platform>jsw</platform>
 									</platforms>

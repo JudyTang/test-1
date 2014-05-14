@@ -8,10 +8,14 @@ public class Main {
             System.out.println("stopped");
             System.exit(0);
         } else {
-            System.out.println("Hello maven");
-            //1
-            //2
-            System.out.println();
+        	
+        	while(true)
+        	{
+        		System.out.println("Hello maven");
+        		
+        	}
+            
+            
         }
     }
 
