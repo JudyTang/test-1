@@ -20,7 +20,7 @@
 		<developerConnection>scm:git:https://github.com/JudyTang/test-1.git</developerConnection>
 		<connection>scm:git:https://github.com/JudyTang/test-1.git</connection>
 		<url>https://github.com/JudyTang/test-1.git</url>
-		<tag>esb-app-example-1.0.8</tag>
+		<tag>esb-app-example-1.0.9</tag>
 	</scm>
 
 	<build>
